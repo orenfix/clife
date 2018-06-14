@@ -17,11 +17,11 @@ main {
 	max-width: 1200px;
 	margin: 0 auto;
 	background-color: white;
-/*	visibility: hidden;*/
 }
 
 .banner {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 1rem 0;
@@ -36,7 +36,20 @@ h1 {
 	font-size: 4rem;
 	font-weight: bold;
 	text-align: center;
-	color: rgb(80,210,255);
+	color: rgb(229,64,55);
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: normal;
+	text-align: center;
+	line-height: 3.5rem;
+	padding: 1rem 0;
+}
+
+h2 span {
+	font-weight: bold;
+	color: rgb(229,64,55);
 }
 
 @media only screen and (max-width: 800px) {
@@ -58,7 +71,7 @@ h1 {
 	border: 1px solid rgb(200,200,200);
 }
 
-h2 {
+h3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -69,10 +82,11 @@ h2 {
 .list {
 	width: 40%;
 	text-align: center;
+	padding: 2rem 0;
 }
 
 .list img {
-	width: 2.5rem;
+	width: 5rem;
 	height: auto;
 	margin-left: 1rem;
 }
@@ -89,7 +103,7 @@ h2 {
 		flex-direction: column;
 	}
 
-	h2 {
+	h3 {
 		font-size: 1.8rem;
 		color: rgb(0,127,178);
 	}
@@ -112,20 +126,21 @@ a, a:visited {
 	margin: 0 auto .8rem auto;
 	border-radius: 4px;
 	color: white;
-	background-color: rgb(80,210,255);
+	font-weight: bold;
+	background-color: rgb(229,64,55);
 	text-decoration: none;
 }
 
 a:hover, a:active {
 	color: white;
-	background-color: rgb(0,181,255);
+	background-color: rgba(229,64,55,.7);
 }
 
 footer {
 	padding: 1rem;
 }
 
-h3 {
+h4 {
 	font-size: 1rem;
 	font-weight: bold;
 	margin-bottom: .3rem;
@@ -135,10 +150,6 @@ p {
 	font-size: .9rem;
 	line-height: 1.1rem;
 	margin-bottom: 2rem;
-}
-
-p:first-child {
-	text-align: right;
 }
 
 p:last-child {

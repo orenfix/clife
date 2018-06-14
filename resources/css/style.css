@@ -82,7 +82,7 @@ h3 {
 .list {
 	width: 40%;
 	text-align: center;
-	padding: 2rem 0;
+	padding: 1rem 0;
 }
 
 .list img {
@@ -103,9 +103,16 @@ h3 {
 		flex-direction: column;
 	}
 
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
 	h3 {
 		font-size: 1.8rem;
-		color: rgb(0,127,178);
 	}
 
 	.list {

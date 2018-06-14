@@ -36,7 +36,7 @@ h1 {
 	font-size: 4rem;
 	font-weight: bold;
 	text-align: center;
-	color: rgb(229,64,55);
+	color: rgb(25,204,149);
 }
 
 h2 {
@@ -49,7 +49,7 @@ h2 {
 
 h2 span {
 	font-weight: bold;
-	color: rgb(229,64,55);
+	color: rgb(25,204,149);
 }
 
 @media only screen and (max-width: 800px) {
@@ -134,13 +134,13 @@ a, a:visited {
 	border-radius: 4px;
 	color: white;
 	font-weight: bold;
-	background-color: rgb(229,64,55);
+	background-color: rgb(25,204,149);
 	text-decoration: none;
 }
 
 a:hover, a:active {
 	color: white;
-	background-color: rgba(229,64,55,.7);
+	background-color: rgba(25,204,149,.7);
 }
 
 footer {

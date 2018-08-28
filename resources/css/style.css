@@ -28,7 +28,7 @@ main {
 }
 
 .banner img {
-	height: 7rem;
+	height: 20rem;
 	width: auto;
 }
 
@@ -39,27 +39,13 @@ h1 {
 	color: rgb(25,204,149);
 }
 
-h2 {
-	font-size: 3rem;
-	font-weight: normal;
-	text-align: center;
-	line-height: 3.5rem;
-	padding: 1rem 0;
-}
-
-h2 span {
-	font-weight: bold;
-	color: rgb(25,204,149);
-}
-
 @media only screen and (max-width: 800px) {
 	.banner {
 		flex-direction: column;
 	}
 
 	.banner img {
-		height: 5rem;
-		margin: 1rem;
+		height: 12rem;
 	}
 }
 
@@ -134,13 +120,13 @@ a, a:visited {
 	border-radius: 4px;
 	color: white;
 	font-weight: bold;
-	background-color: rgb(25,204,149);
+	background-color: rgb(77,173,37);
 	text-decoration: none;
 }
 
 a:hover, a:active {
 	color: white;
-	background-color: rgba(25,204,149,.7);
+	background-color: rgb(53,94,160);
 }
 
 footer {

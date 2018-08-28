@@ -1,5 +1,5 @@
 
-/* Turn on to ee border around risk table
+/* Turn on to see border around risk table
 td {
 	border: 1px solid black;
 }
@@ -15,17 +15,20 @@ body, h1, h2, h3, a, fieldset, input, legend, label, table, th, tr, td, p, ol, u
 
 
 h1, h2, th {
-	color: rgb(49,72,191);
+	color: rgb(53,94,160);
+}
+h1 span {
+	color: rgb(77,173,37);
 }
 legend, .blue, #outerWrapper a:link, #outerWrapper a:visited, #outerWrapper-about a:link, #outerWrapper-about a:visited, #aboutContainer h3 {
-	color: rgb(65,96,255) !important;
+	color: rgb(77,173,37) !important;
 }
 #tumorBurden .ui-radio-on {
-	background-color: rgb(65,96,255);
-	border-color: rgb(65,96,255);
+	background-color: rgb(53,94,160);
+	border-color: rgb(53,94,160);
 }
 .ui-checkbox-on:after {
-	background-color: rgb(65,96,255) !important;
+	background-color: rgb(53,94,160) !important;
 }
 /***************************************/
 
@@ -56,6 +59,9 @@ h1 {
 	text-align: center;
 	line-height: 1.2em;
 	letter-spacing: 1.5px;
+}
+h1 span {
+		font-size: 1.2em;
 }
 h2 {
 	font-size: 1em;
@@ -96,7 +102,7 @@ legend {
 	border-radius: 10px;
 	padding: .5em 5px;
 	margin: 0 auto;
-	cursor: pointer;
+	/*cursor: pointer; */
 	font-size: .9em;
 }
 table {
